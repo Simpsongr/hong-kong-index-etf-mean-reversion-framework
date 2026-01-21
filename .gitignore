@@ -1,5 +1,5 @@
 # .gitignore
-# Recommended for quantitative finance / Jupyter projects
+# Updated January 2026 – after adding zscore_signals.png and daily_spread.png to root
 
 # Python
 __pycache__/
@@ -20,8 +20,7 @@ venv/
 .ipynb_checkpoints/
 *.ipynb_checkpoints/
 
-# Data & large files (do not commit raw downloads)
-data/
+# Data & large files (do NOT commit raw downloads or intermediate data)
 *.csv
 *.parquet
 *.hdf5
@@ -30,9 +29,7 @@ data/
 *.pkl
 *.feather
 *.zip
-
-# but allow an empty marker file if you want to keep the folder
-!data/.gitignore
+data/
 
 # Logs and temporary files
 *.log
@@ -52,17 +49,21 @@ ehthumbs.db
 *.sublime-project
 *.sublime-workspace
 
-# Matplotlib / backtrader cache
+# Matplotlib / plotting cache
 matplotlibrc
 .cache/
 fontlist-v*.json
 
-# Optional: ignore most result images, but allow selected ones
-results/
-!results/zscore_plot.png
-!results/spread_plot.png
-!results/pnl_curve.png
-!results/*.pdf
+# ──────────────────────────────────────────────
+# Images – protect future / temporary plots
+# We already committed the good ones (zscore_signals.png, daily_spread.png)
+# so ignore most other .png / .jpg files going forward
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
 
-# Jupyter
-.ipynb_checkpoints/
+# But explicitly allow the ones we want to keep (already committed)
+!zscore_signals.png
+!daily_spread.png
